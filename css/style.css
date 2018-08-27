@@ -1,0 +1,36 @@
+/* Títulos */
+font-family: 'Open Sans', sans-serif;
+
+/* Textos */
+font-family: 'Bree Serif', serif;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/845242/pexels-photo-845242.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -9rem;
+  overflow: hidden;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+#navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  #navbar {
+    background: #fff;
+  }
+}
