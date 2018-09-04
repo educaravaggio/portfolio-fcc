@@ -120,11 +120,16 @@ a{
   flex-wrap: wrap;
 }
 
+.imgs-sites:hover {
+  filter: grayscale(1);
+}
+
 .imgs-sites {
   width: 25vw;
   height: auto;
   margin: 30px 20px; 
   border: 2px solid #fff;
+  transition: .5s ease-out;
 }
 
 #contact {
